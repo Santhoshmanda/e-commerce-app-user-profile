@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGANI.UserService.API", "OGANI.UserService.API\OGANI.UserService.API.csproj", "{BB4E72B2-0295-49D7-9CB1-26794D048B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGANI.UserService.Domain", "OGANI.UserService.Domain\OGANI.UserService.Domain.csproj", "{6A9D1A59-6504-4139-A0D1-BDCB17B600A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGANI.UserService.Application", "OGANI.UserService.Application\OGANI.UserService.Application.csproj", "{093E67E0-F5C1-4C31-8D9F-B2C0BDE21FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGANI.UserService.Infrastructure", "OGANI.UserService.Infrastructure\OGANI.UserService.Infrastructure.csproj", "{E08CFC99-C72C-4844-8483-41A23DC89060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGANI.UserService.TestInfra", "OGANI.UserService.TestInfra\OGANI.UserService.TestInfra.csproj", "{338305C4-BABD-4A64-B001-6F727FD23B0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB4E72B2-0295-49D7-9CB1-26794D048B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4E72B2-0295-49D7-9CB1-26794D048B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4E72B2-0295-49D7-9CB1-26794D048B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4E72B2-0295-49D7-9CB1-26794D048B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9D1A59-6504-4139-A0D1-BDCB17B600A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9D1A59-6504-4139-A0D1-BDCB17B600A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9D1A59-6504-4139-A0D1-BDCB17B600A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9D1A59-6504-4139-A0D1-BDCB17B600A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093E67E0-F5C1-4C31-8D9F-B2C0BDE21FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093E67E0-F5C1-4C31-8D9F-B2C0BDE21FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093E67E0-F5C1-4C31-8D9F-B2C0BDE21FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093E67E0-F5C1-4C31-8D9F-B2C0BDE21FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08CFC99-C72C-4844-8483-41A23DC89060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08CFC99-C72C-4844-8483-41A23DC89060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08CFC99-C72C-4844-8483-41A23DC89060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08CFC99-C72C-4844-8483-41A23DC89060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338305C4-BABD-4A64-B001-6F727FD23B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338305C4-BABD-4A64-B001-6F727FD23B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338305C4-BABD-4A64-B001-6F727FD23B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338305C4-BABD-4A64-B001-6F727FD23B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6CD855E-8D9D-4C99-BC46-EBBBC2CC9528}
+	EndGlobalSection
+EndGlobal
